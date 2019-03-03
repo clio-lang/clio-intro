@@ -1,0 +1,9 @@
+type Cat name age:
+  name => self.name
+  age => self.age
+
+@eager
+fn hello of Cat:
+  'Meow! My name is' self.name -> print
+
+#Chili 6 -> Cat -> hello

@@ -1,0 +1,4 @@
+0 -> if > 0: #positive
+   elif < 0: #negative
+       else: #zero
+  -> print

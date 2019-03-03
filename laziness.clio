@@ -1,0 +1,9 @@
+fn lazy_echo message:
+  message -> print
+
+@eager
+fn eager_echo message:
+  message -> print
+
+'This will be printed only once' -> lazy_echo
+'This will be printed only once' -> eager_echo

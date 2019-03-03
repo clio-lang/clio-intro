@@ -1,0 +1,8 @@
+0 => number
+
+if number > 0:
+  #positive -> print
+elif number < 0:
+  #negative -> print
+else:
+  #zero -> print

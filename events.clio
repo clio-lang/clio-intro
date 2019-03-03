@@ -1,0 +1,9 @@
+#timer -> emitter => timer
+timer:#time -> print 'seconds passed'
+
+@eager
+fn count i:
+  i + 1 => i
+  timer -> emit #time i
+
+1000 count -> interval

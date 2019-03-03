@@ -1,0 +1,3 @@
+import fib from fib
+
+1000 -> fib -> print 'Fib of 1000 is' @

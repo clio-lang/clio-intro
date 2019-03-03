@@ -1,0 +1,7 @@
+fn say_hi n if num:
+  'Hi numeric ' n '!' -> cat
+
+fn say_hi s if str:
+  'Hi string ' s '!' -> cat
+
+[42 'Lorem ipsum'] -> * say_hi -> * print

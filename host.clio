@@ -1,0 +1,9 @@
+fn factorial n:
+  if n > 1: n * (n - 1 -> factorial)
+  else: n
+
+{
+  #port 3000
+  #workers 2
+  #exports [#factorial]
+} => host

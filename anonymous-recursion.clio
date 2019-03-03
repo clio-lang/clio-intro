@@ -1,0 +1,3 @@
+5 -> (@eager) fn i:
+  if i:
+    i - 1 -> print -> recall

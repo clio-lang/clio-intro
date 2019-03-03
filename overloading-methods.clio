@@ -1,0 +1,14 @@
+type Cat name age:
+  name => self.name
+  age => self.age
+
+@eager
+fn hello n if num of Cat:
+  'Meow numeric' n '! My name is' self.name -> print
+
+fn hello s if str of Cat:
+  'Meow string' s '! My name is' self.name -> print
+
+#Honey 6 -> Cat -> (@eager) fn cat:
+  [42 'Lorem ipsum']
+    -> * hello cat @

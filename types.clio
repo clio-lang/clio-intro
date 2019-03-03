@@ -1,0 +1,5 @@
+type Cat name age:
+  name => self.name
+  age => self.age
+
+#Moki 6 -> Cat -> print 'Hello! My name is' (transform cat: cat.name)
